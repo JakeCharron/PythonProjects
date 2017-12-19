@@ -1,0 +1,480 @@
+// Python Program to help me with my Math Course
+
+// this function clears the screen
+def cls():
+    print("\n" * 50)
+
+// basic calculator function 
+def calc():
+    print("""Hello what calculations would you like to do?
+
+            addition            --1
+
+            subtraction         --2
+
+            multiplication      --3
+
+            division            --4
+
+        """)
+    math_topic_cal = int(input())
+
+    if math_topic_cal == 1 or 2 or 3 or 4:
+        if math_topic_cal == 1:
+            print("""How many numbers do you want to add?
+
+                    2 numbers       --2
+
+                    3 numbers       --3
+
+                    4 numbers       --4
+
+                    5 numbers       --5""")
+            addnumbers = int(input())
+            if addnumbers == 2 or 3 or 4 or 5:
+                if addnumbers == 2:
+                    print("The first number is: ")
+                    addnumbers2one = int(input())
+                    print("the second number is :")
+                    addnumbers2two = int(input())
+                    print("The answer is {}".format(addnumbers2one + addnumbers2two))
+                if addnumbers == 3:
+                    print("The first number is: ")
+                    addnumbers3one = int(input())
+                    print("the second number is :")
+                    addnumbers3two = int(input())
+                    print("the third number is :")
+                    addnumbers3three = int(input())
+                    print("The answer is {}".format(addnumbers3one + addnumbers3two + addnumbers3three))
+                if addnumbers == 4:
+                    print("The first number is: ")
+                    addnumbers4one = int(input())
+                    print("the second number is :")
+                    addnumbers4two = int(input())
+                    print("the third number is :")
+                    addnumbers4three = int(input())
+                    print("the fourth number is :")
+                    addnumbers4four = int(input())
+                    print(
+                        "The answer is {}".format(addnumbers4one + addnumbers4two + addnumbers4three + addnumbers4four))
+                if addnumbers == 5:
+                    print("The first number is: ")
+                    addnumbers5one = int(input())
+                    print("the second number is :")
+                    addnumbers5two = int(input())
+                    print("the third number is :")
+                    addnumbers5three = int(input())
+                    print("the fourth number is :")
+                    addnumbers5four = int(input())
+                    print("the fifth number is :")
+                    addnumbers5five = int(input())
+                    print("The answer is {}".format(
+                        addnumbers5one + addnumbers5two + addnumbers5three + addnumbers5four + addnumbers5five))
+        if math_topic_cal == 2:
+            print("""How many numbers do you want to subtract?
+
+                    2 numbers -2
+                    3 numbers -3
+                    4 numbers -4
+                    5 numbers -5""")
+            subnumbers = int(input())
+            if subnumbers == 2 or 3 or 4 or 5:
+                if subnumbers == 2:
+                    print("The first number is: ")
+                    subnumbers2one = int(input())
+                    print("the second number is :")
+                    subnumbers2two = int(input())
+                    print("The answer is {}".format(subnumbers2one - subnumbers2two))
+                if subnumbers == 3:
+                    print("The first number is: ")
+                    subnumbers3one = int(input())
+                    print("the second number is :")
+                    subnumbers3two = int(input())
+                    print("the third number is :")
+                    subnumbers3three = int(input())
+                    print("The answer is {}".format(subnumbers3one - subnumbers3two - subnumbers3three))
+                if subnumbers == 4:
+                    print("The first number is: ")
+                    subnumbers4one = int(input())
+                    print("the second number is :")
+                    subnumbers4two = int(input())
+                    print("the third number is :")
+                    subnumbers4three = int(input())
+                    print("the fourth number is :")
+                    subnumbers4four = int(input())
+                    print("The answer is {}".format(
+                        subnumbers4one - subnumbers4two - subnumbers4three - subnumbers4four))
+                if subnumbers == 5:
+                    print("The first number is: ")
+                    subnumbers5one = int(input())
+                    print("the second number is :")
+                    subnumbers5two = int(input())
+                    print("the third number is :")
+                    subnumbers5three = int(input())
+                    print("the fourth number is :")
+                    subnumbers5four = int(input())
+                    print("the fifth number is :")
+                    subnumbers5five = int(input())
+                    print("The answer is {}".format(
+                        subnumbers5one - subnumbers5two - subnumbers5three - subnumbers5four - subnumbers5five))
+        if math_topic_cal == 3:
+            print("""How many numbers do you want to multiply?
+
+            Two   numbers  --2
+
+            Three numbers  --3
+
+            Four  numbers  --4
+
+            Five  numbers  --5
+            """)
+            multnumbers = int(input())
+
+            if multnumbers == 2 or 3 or 4 or 5:
+                if multnumbers == 2:
+                    print("the first number is : ")
+                    multnumbers2one = int(input())
+                    print("the second number is : ")
+                    multnumbers2two = int(input())
+                    print(" the answer is {}".format(multnumbers2one * multnumbers2two))
+                if multnumbers == 3:
+                    print("the first number is : ")
+                    multnumbers3one = int(input())
+                    print("the second number is : ")
+                    multnumbers3two = int(input())
+                    print("the third number is : ")
+                    multnumbers3three = int(input())
+                    print(" the answer is {}".format(multnumbers3one * multnumbers3two * multnumbers3three))
+                if multnumbers == 4:
+                    print("the first number is : ")
+                    multnumbers4one = int(input())
+                    print("the second number is : ")
+                    multnumbers4two = int(input())
+                    print("the third number is : ")
+                    multnumbers4three = int(input())
+                    print("the fourth number is :")
+                    multnumbers4four = int(input())
+                    print(" the answer is: {}".format
+                        (multnumbers4one * multnumbers4two * multnumbers4three * multnumbers4four))
+                if multnumbers == 5:
+                    print("the first number is : ")
+                    multnumbers5one = int(input())
+                    print("the second number is : ")
+                    multnumbers5two = int(input())
+                    print("the third number is : ")
+                    multnumbers5three = int(input())
+                    print("the fourth number is :")
+                    multnumbers5four = int(input())
+                    print("the fifth number is : ")
+                    multnumbers5five = int(input())
+                    print(" the answer is {}".format(
+                        multnumbers5one * multnumbers5two * multnumbers5three * multnumbers5four * multnumbers5five))
+            else:
+                print("Please type a valid Option")
+        if math_topic_cal == 4:
+            print("""How many numbers do you want to divide?
+
+                               Two   numbers  --2
+
+                               Three numbers  --3
+
+                               Four  numbers  --4
+
+                               Five  numbers  --5
+                                            """)
+            divnumbers = int(input())
+            if divnumbers == 2 or 3 or 4 or 5:
+                if divnumbers == 2:
+                    print("the first number is : ")
+                    divnumbers2one = int(input())
+                    print("the second number is : ")
+                    divnumbers2two = int(input())
+                    print(" the answer is {}".format(divnumbers2one / divnumbers2two))
+                if divnumbers == 3:
+                    print("the first number is : ")
+                    divnumbers3one = int(input())
+                    print("the second number is : ")
+                    divnumbers3two = int(input())
+                    print("the third number is : ")
+                    divnumbers3three = int(input())
+                    print(" the answer is {}".format(divnumbers3one / divnumbers3two / divnumbers3three))
+                if divnumbers == 4:
+                    print("the first number is : ")
+                    divnumbers4one = int(input())
+                    print("the second number is : ")
+                    divnumbers4two = int(input())
+                    print("the third number is : ")
+                    divnumbers4three = int(input())
+                    print("the fourth number is :")
+                    divnumbers4four = int(input())
+                    print(" the answer is {}".format(
+                        divnumbers4one * divnumbers4two / divnumbers4three / divnumbers4four))
+                if divnumbers == 5:
+                    print("the first number is : ")
+                    divnumbers5one = int(input())
+                    print("the second number is : ")
+                    divnumbers5two = int(input())
+                    print("the third number is : ")
+                    divnumbers5three = int(input())
+                    print("the fourth number is :")
+                    divnumbers5four = int(input())
+                    print("the fifth number is : ")
+                    divnumbers5five = int(input())
+                    print(" the answer is {}".format(
+                        divnumbers5one / divnumbers5two / divnumbers5three / divnumbers5four / divnumbers5five))
+            else:
+                print("Please type a vali"
+                      "d Option")
+
+// this function is a basic drt calculator 
+def drt():
+    print("""You are in the Distance = Time*Rate calculator: 
+
+                You don't know   'D'   --1
+
+                You don't know   'R'   --2
+
+                You don't know   'T'   --3
+                """)
+    drtoption = int(input())
+    if drtoption == 1:
+        print("What is the rate?(mph)")
+        onedrate = int(input())
+        print("What is the time?(h)")
+        onedtime = int(input())
+        distance = (onedrate * onedtime)
+        print("{} = distance".format(distance))
+    if drtoption == 2:
+        print("What is the distance(m)?")
+        twordis = int(input())
+        print("What is the time(h)?")
+        twortime = int(input())
+        tworate = (twordis / twortime)
+        print("{} mph = rate".format(tworate))
+        print("{} miles per minute = rate".format(tworate / 60))
+    if drtoption == 3:
+        print("what is the distance(m)?")
+        threetdistance = int(input())
+        print("what is the rate(mph)")
+        threetrate = int(input())
+        threetime = (threetdistance / threetrate)
+        print("{} hours = time".format(threetime))
+
+// unit conversion function (one of the most useful to me)
+def uc():
+    print("""Please choose from: 
+    Mi(Miles) 
+    F(Feet) 
+    Y(Yards) 
+    I(Inches)
+    KM(Kilometers)
+    M(Meters)
+    C(Centimeter)
+    """)
+    unit1 = input("What unit are you converting from?   ")
+    unit2 = input("What unit are you converting to?     ")
+    # Miles Conversions
+    if unit1 == "Mi" and unit2 == "F":  # asks what units are converting
+        valmif = int(input("What is the value that you are converting?  "))
+        ansmif = valmif * 5280
+        print("Unit conversion result between miles and feet: {}".format(ansmif))
+    if unit1 == "Mi" and unit2 == "Y":
+        valmiy = int(input("What is the value that you are converting?  "))
+        ansmiy = valmiy * 1760
+        print("Unit conversion between miles and yards: {}".format(ansmiy))
+    if unit1 == "Mi" and unit2 == "KM":
+        valmikm = int(input("What is the value that you are converting?  "))
+        ansmikm = valmikm * 1.60934
+        print("Unit conversion result between miles and Kilometers:  {}".format(ansmikm))
+    if unit1 == "Mi" and unit2 == "M":
+        valmim = int(input("What is the value that you are converting?  "))
+        ansmim = valmim * 1609.34
+        print("Unit conversion result between miles and meters: {}".format(ansmim))
+    # feet
+    if unit1 == "F" and unit2 == "Mi":
+        valfmi = int(input("What is the value that you are converting?  "))
+        ansfmi = valfmi * 0.0001894
+        print("Unit conversion result between feet and miles: {}".format(ansfmi))
+
+    if unit1 == "F" and unit2 == "Y":
+        valfy = int(input("What is the value that you are converting?  "))
+        ansfy = valfy * .333
+        print("Unit conversion between miles and yards: {}".format(ansfy))
+        # Yard Conversions
+
+    if unit1 == "Y" and unit2 == "Mi":
+        valYMi = int(input("What is the value that you are converting?  "))
+        ansYMi = valYMi* 0.000568182
+        print("Unit conversion result between yards and miles: {}".format(ansYMi))
+
+    if unit1 == "Y" and unit2 == "F":
+        valYF = int(input("What is the value that you are converting?  "))
+        ansYF = valYF * 3
+        print("Unit conversion between yards and feet: {}".format(ansYF))
+
+    if unit1 == "Y" and unit2 == "M":
+        valYM = int(input("What is the value that you are converting?  "))
+        ansYM = valYM * .9144
+        print("Unit conversion result between yards and meters: {}".format(ansYM))
+        # Kilometer Conversions
+
+    if unit1 == "KM" and unit2 == "Mi":
+        valKMMi = int(input("What is the value that you are converting?  "))
+        ansKMMi = valKMMi * 0.621371
+        print("Unit conversion result between yards and miles: {}".format(ansKMMi))
+
+    if unit1 == "KM" and unit2 == "F":
+        valKMF = int(input("What is the value that you are converting?  "))
+        ansKMF = valKMF * 3280.84
+        print("Unit conversion between Kilometers and feet: {}".format(ansKMF))
+
+    if unit1 == "M" and unit2 == "Mi":
+        valMMi = int(input("What is the value that you are converting?  "))
+        ansMMi = valMMi * 0.000621371
+        print("Unit conversion result between Meters and Miles: {}".format(21))
+
+    if unit1 == "M" and unit2 == "KM":
+        print("Unit conversion result between meters and kilometers:  {}".format(21))
+        valMKM = int(input("What is the value that you are converting?  "))
+        ansMKM = valMKM * .001
+        print("Unit conversion result between Meters and KIloMeters: {}".format(21))
+
+    else:
+        print("Please type a valid unit Conversion.")
+        uc()
+// Geometery function
+
+def shapes():
+    shapeoption = int(input("""
+    What do you want help with?
+    triangle     -- 1
+    circles      -- 2
+    rectangle    -- 3
+    """))
+    if shapeoption == 1:
+        triopt = int(input("""Do yo want to find the
+        Area      --1
+        Perimeter --2"""))
+        if triopt == 1:
+            tribase = "The value of the base is:  "
+            trihieght = "The value of the hieght is:  "
+            triarea = trihieght * tribase
+            print("{} is the area of your triangle".format(triarea))
+        if triopt == 2:
+            l1 = int(input("the length of the first line is:  "))
+            l2 = int(input("the length of the second line is:  "))
+            l3 = int(input("the length of the third line is:  "))
+            trip = l1 + l2 + l3
+            print("The perimeter is:  {}".format(trip))
+    if shapeoption == 2:
+        circoption = int(input("""
+        Do you want to find the 
+
+        Area      --1
+        Perimeter --2
+
+        """))
+        if circoption == 1:
+            circrad1 = int(input("The radius is:  "))
+            cica1 = circrad1 * circrad1 * 3.14159
+            print("The area is: {}".format(cica1))
+        if circoption == 2:
+            circrad2 = int(input("The radius is:  "))
+            cica2 = circrad2 * 2 * 3.14159
+            print("The perimeter is: {}".format(cica2))
+    if shapeoption == 3:
+        rectption = int(input("""
+        Do you want to find the 
+
+        Area      --1
+        Perimeter --2
+
+        """))
+        if rectption == 1:
+            rectl = int(input("The lenght is: "))
+            rectw = int(input("The width is: "))
+            recta = rectl * rectw
+            print("The area is:  {}".format(recta))
+        if rectption == 2:
+            rectl2 = int(input("The lenght is: "))
+            rectw2 = int(input("The width is: "))
+            recta2 = rectl2 + rectl2 + rectw2 + rectw2
+            print("The perimeter is:  {}".format(recta2))
+    else:
+        print("Please type a valid number.")
+        print("Do you want to go to the menu?")
+        shapeoptionextend = input("y/n\n")
+        if shapeoptionextend == "y":
+            menu()
+        else:
+            shapes()
+//interist function
+
+def interist():
+    balance = float(input("Balance: $ "))
+    intRate = float(input("Interest Rate (%) : "))
+    years = int(input("Years: "))
+    newbalance = calcBalance(balance, intRate, years)
+
+    print("New balance:  $%.2f" % (newbalance))
+
+
+def calcBalance(bal, int, yrs):
+    newBal = bal
+    for i in range(yrs):
+        newBal = newBal + newBal * int / 100
+    return newBal
+
+
+def slope():
+    x1 = int(input("What is x1:  "))
+    x2 = int(input("What is x2:  "))
+    y1 = int(input("What is y1:  "))
+    y2 = int(input("What is y2:  "))
+    x = x2 - x1
+    y = y2 - y1
+    slp = y / x
+    print("The slope is: {}".format(slp))
+
+//combines all of the previous functions and combines them to make a menu
+def menu():
+    menuoptions = int(input("""
+    Which math topic do you need help with?
+
+             DRT                    --1
+
+             Unit Conversion        --2
+
+             Shapes                 --3
+
+             Interest               --4
+
+             Slopes                 --5
+
+             Calculator             --0
+
+    """))
+    if menuoptions == 0 or 1 or 2 or 3 or 4 or 5 or 6:
+        if menuoptions == 0:
+            calc()
+            menu()
+        if menuoptions == 1:
+            drt()
+            menu()
+        if menuoptions == 2:
+            uc()
+            menu()
+        if menuoptions == 3:
+            shapes()
+            menu()
+        if menuoptions == 4:
+            interist()
+            menu()
+        if menuoptions == 5:
+            slope()
+            menu()
+    else:
+        print("pleas type a valid number")
+
+// calls the whole program
+menu()
