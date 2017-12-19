@@ -1,10 +1,10 @@
-// Python Program to help me with my Math Course
+# Python Program to help me with my Math Course
 
-// this function clears the screen
+# this function clears the screen
 def cls():
     print("\n" * 50)
 
-// basic calculator function 
+# basic calculator function 
 def calc():
     print("""Hello what calculations would you like to do?
 
@@ -226,7 +226,7 @@ def calc():
                 print("Please type a vali"
                       "d Option")
 
-// this function is a basic drt calculator 
+# this function is a basic drt calculator 
 def drt():
     print("""You are in the Distance = Time*Rate calculator: 
 
@@ -260,7 +260,7 @@ def drt():
         threetime = (threetdistance / threetrate)
         print("{} hours = time".format(threetime))
 
-// unit conversion function (one of the most useful to me)
+# unit conversion function (one of the most useful to me)
 def uc():
     print("""Please choose from: 
     Mi(Miles) 
@@ -342,7 +342,7 @@ def uc():
     else:
         print("Please type a valid unit Conversion.")
         uc()
-// Geometery function
+# Geometery function
 
 def shapes():
     shapeoption = int(input("""
@@ -408,7 +408,7 @@ def shapes():
             menu()
         else:
             shapes()
-//interist function
+# interist function
 
 def interist():
     balance = float(input("Balance: $ "))
@@ -436,7 +436,7 @@ def slope():
     slp = y / x
     print("The slope is: {}".format(slp))
 
-//combines all of the previous functions and combines them to make a menu
+# combines all of the previous functions and combines them to make a menu
 def menu():
     menuoptions = int(input("""
     Which math topic do you need help with?
@@ -476,5 +476,5 @@ def menu():
     else:
         print("pleas type a valid number")
 
-// calls the whole program
+# calls the whole program
 menu()
